@@ -17,7 +17,7 @@ lang: en-US
 title: Pluto In Making
 email: abc@gmail.com
 description: Hi, This is the 3rd time I am creating the blog, to share my views on diverse topics. 
-baseurl: "/blog"
+baseurl: ""
 url: "https://uditpushkar.github.io"
 author: 
   name: Udit Pushkar
