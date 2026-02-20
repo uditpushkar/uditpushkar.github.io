@@ -1,0 +1,194 @@
+{
+  "basics": {
+    "name": "Udit Pushkar",
+    "label": "Indian Police Service",
+    "picture": "",
+    "email": "udit.pushkar@ips.gov.in",
+    "phone": "(+91) 6264283023",
+    "website": "https://towlettepettetuc.ci",
+    "summary": "Udit finds travels, photography and mountaineering quite interesting. His Guitar channel.",
+    "location": {
+      "address": "ADC House Lokbhavan",
+      "postalCode": "494001",
+      "city": "Raipur",
+      "countryCode": "IN",
+      "region": "Chattisgarh"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "Udit Pushkar",
+        "url": "https://twitter.com/uditpushkar"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "ADC",
+      "position": "Aide-de-Camp Governor of Chattisgarh",
+      //"website": "",
+      "startDate": "November 2025",
+      "endDate": "",
+      "summary": "Overall Incharge of Security and Tour Programs of Hon' Governor of Chattisgarh",
+      "highlights": [
+        "Ceremonial Duities",
+        "Protocol and Coordination",
+        "Administrative Support",
+        "Security and Movement Oversight",
+        "Representation"
+      ]
+    },
+    {
+      "company": "Add SP Dantewada",
+      "position": "Additional Superintendent of Police, Anti-Naxal Operations",
+      "startDate": "May 2025",
+      "endDate": "November 2025",
+      "summary": "Nodal Commander for Leading, Planning and Executing the fight agaisnt Naxalism in Dantewada, Chattisgarh.",
+      "highlights": [
+        "Anti-Naxal Operations",
+        "Intelligence Collection, Anlaysis and Dissemination",
+        "Monitoring of UAPA Cases",
+        "Naxal Surrender Policy ",
+        "Commanding Officer of Distrcit Reserve Guard",
+        "Multi-Agency and Inter-State Coordination in ANOs."
+      ]
+    },
+    {
+      "company": "CSP Jagdalpur",
+      "position": "City Superintendent of Police, Jagdalpur",
+      "startDate": "February 2024",
+      "endDate": "May 2025",
+      "summary": "Urban Town in the region of Bastar of 2 lakh population. The demographics included Minorities, College Students and Trtibal polulation.",
+      "highlights": [
+        "Supervision of Criminal Investigations",
+        "Maintenace of Law and Order",
+        "Large Crowd and Public Meetings",
+        "Security to Personnel in Naxal Affected Areas",
+        "Special Emphasis on Investigation of Cyber Crimes",
+        "Police Station Manaegemnt",
+        "Crime Analytics Dashboard"
+      ]
+    },
+    {
+      "company": "Raigarh",
+      "position": "Officer in Probation",
+      "startDate": "April 2023",
+      "endDate": "October 2023",
+      "summary": "Under Probation - Distrcit Practical Training in Raigarh, Chattisgarh",
+      "highlights": [
+        "Several Attachments with various wings of District Administration, Raigarh",
+        "Station House Officer - 3 months",
+        "Intelligence Attachement",
+        "Higher Judiciary Attchement"
+      ]
+    }
+  ],
+  "volunteer": [
+     {
+      "organization": "Strategic Leadership Program",
+      "position": "Indian Institute of Management Ahmedabad",
+      "startDate": "September",
+      "endDate": "2023",
+      "summary": ""
+    },
+    {
+      "organization": "Basic Course",
+      "position": "SVP National Police Academy Hyderabad",
+     // "website": "",
+      "startDate": "March 2022",
+      "endDate": "October 2023",
+      "summary": ""
+    },
+    {
+      "organization": "Foundation Course",
+      "position": "LBS National Academy of Administration Mussorie",
+     // "website": "",
+      "startDate": "December 2021",
+      "endDate": "March 2022",
+      "summary": ""
+    }, 
+    {
+      "organization": "Young Commando Course",
+      "position": "Counter Terrorism and Jungle Warfare College",
+     // "website": "",
+      "startDate": "Kanker",
+      "endDate": "December 2023",
+      "summary": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indian Institute of Technology, Kanpur",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "August 2011",
+      "endDate": "April 2015"
+    }, 
+    {
+      "institution": "Nalsar University of Law, Hyderabad",
+      "area": "Criminal Justice Management",
+      "studyType": "Master",
+      "startDate": "March 2022",
+      "endDate": "October 2023"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Warble Pioneer Award",
+      "date": "2001-11-01",
+      "awarder": "Levi Goulet",
+      "summary": "Have you seen my turtle?"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Radio Julius",
+      "publisher": "Tanyo Lubbock",
+      "releaseDate": "2014-10-01",
+      "website": "https://en.rhy.es",
+      "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Horse Riding",
+      "level": "Beginnner",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Table Tennis",
+      "level": "Professional",
+    },
+    {
+      "name": "Guitar",
+      "level": "Intermediate",
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": ""
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Mountaineering",
+      "keywords": [
+        "Hiking",
+        "Trekking"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": " Nannette Nananacci",
+      "reference": "It is my pleasure to recommend Dugan Nash, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <div class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+      <!-- <aside class="entry-sidebar">
+        {% include author %}
+        {% if author_picture %}
+          <img class="author-picture" src="{{ author_picture }}" alt="{{ author_name }}">
+        {% endif %}
+      </aside> -->
+
+      <aside class="entry-sidebar">
+         <div class="author-profile" style="text-align: center;">
+
+            <img 
+      src="{{ site.author.picture | relative_url }}"
+      alt="{{ site.author.name }}"
+      class="author-picture"
+      style=" 
+        
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+      "/> 
+
+    <h3 style="margin-top: 1rem; margin-bottom: 0;">
+      {{ site.author.name }}
+    </h3>
+        <hr>
+    <h3 style="margin: 0; font-size: 1.5rem;">
+      {{ site.author.name_hi }}
+    </h3>
+
+  </div>
+</aside>
+
+
+
+    </div>
+  </div>
+</main>
