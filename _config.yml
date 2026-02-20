@@ -17,8 +17,8 @@ lang: en-US
 title: Pluto In Making
 email: abc@gmail.com
 description: Hi, This is the 3rd time I am creating the blog, to share my views on diverse topics. 
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "/blog"
+url: "https://uditpushkar.github.io"
 author: 
   name: Udit Pushkar
   name_hi: उदित पुष्कर
@@ -38,8 +38,10 @@ algolia:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-basically-basic
+#theme: jekyll-theme-basically-basic
+remote_theme: mmistakes/jekyll-theme-basically-basic
 plugins: # previsously gems
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
