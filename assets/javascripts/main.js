@@ -82,12 +82,14 @@ if (pictureFeed && typeof Masonry !== 'undefined') {
   var masonryInstance;
 
   var startMasonry = function () {
-    masonryInstance = new Masonry(pictureFeed, {
-      itemSelector: '.picture-card',
-      columnWidth: '.grid-sizer',
-      percentPosition: true,
-      gutter: 18
-    });
+    if (!masonryInstance) {
+      masonryInstance = new Masonry(pictureFeed, {
+        itemSelector: '.picture-card',
+        columnWidth: '.grid-sizer',
+        percentPosition: true,
+        gutter: 18
+      });
+    }
   };
 
   var reloadMasonry = function () {
@@ -110,12 +112,12 @@ if (pictureFeed && typeof Masonry !== 'undefined') {
     reloadMasonry();
   };
 
+  startMasonry();
+
   if (typeof imagesLoaded !== 'undefined') {
-    imagesLoaded(pictureFeed, function () {
-      startMasonry();
+    imagesLoaded(pictureFeed).on('progress', function () {
+      reloadMasonry();
     });
-  } else {
-    startMasonry();
   }
 
   for (var i = 0; i < pictureFilters.length; i++) {
