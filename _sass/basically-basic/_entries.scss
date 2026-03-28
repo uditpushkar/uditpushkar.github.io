@@ -319,3 +319,21 @@
   border: 1px solid $border-color;
   border-radius: 16px;
 }
+
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.about-tag {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  background: lighten($background-color, 2%);
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  color: tint($text-color, 20%);
+  font-size: 0.95rem;
+  font-weight: 600;
+}

@@ -5,190 +5,188 @@
     "picture": "",
     "email": "udit.pushkar@ips.gov.in",
     "phone": "(+91) 6264283023",
-    "website": "https://towlettepettetuc.ci",
-    "summary": "Udit finds travels, photography and mountaineering quite interesting. His Guitar channel.",
+    "website": "",
+    "summary": "Officer in the Indian Police Service with field experience across Bastar and Dantewada, and current responsibilities as Aide-de-Camp to the Hon'ble Governor of Chhattisgarh. Interests include public service, operations, travel, photography, and the outdoors.",
     "location": {
-      "address": "ADC House Lokbhavan",
-      "postalCode": "494001",
+      "address": "ADC House, Lok Bhavan",
+      "postalCode": "492001",
       "city": "Raipur",
       "countryCode": "IN",
-      "region": "Chattisgarh"
+      "region": "Chhattisgarh"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "Udit Pushkar",
+        "username": "@uditpushkar",
         "url": "https://twitter.com/uditpushkar"
       }
     ]
   },
   "work": [
     {
-      "company": "ADC",
-      "position": "Aide-de-Camp Governor of Chattisgarh",
-      //"website": "",
+      "company": "Raj Bhavan, Chhattisgarh",
+      "position": "Aide-de-Camp to the Hon'ble Governor of Chhattisgarh",
       "startDate": "November 2025",
       "endDate": "",
-      "summary": "Overall Incharge of Security and Tour Programs of Hon' Governor of Chattisgarh",
+      "summary": "Responsible for coordinating security, ceremonial duties, movement, and tour programmes of the Hon'ble Governor of Chhattisgarh.",
       "highlights": [
-        "Ceremonial Duities",
-        "Protocol and Coordination",
-        "Administrative Support",
-        "Security and Movement Oversight",
-        "Representation"
+        "Security and movement coordination",
+        "Protocol and ceremonial responsibilities",
+        "Administrative planning and liaison",
+        "Tour programme management",
+        "Representation and coordination with multiple agencies"
       ]
     },
     {
-      "company": "Add SP Dantewada",
+      "company": "Dantewada Police",
       "position": "Additional Superintendent of Police, Anti-Naxal Operations",
       "startDate": "May 2025",
       "endDate": "November 2025",
-      "summary": "Nodal Commander for Leading, Planning and Executing the fight agaisnt Naxalism in Dantewada, Chattisgarh.",
+      "summary": "Led planning and execution support for anti-Naxal operations in Dantewada, with a focus on intelligence, coordination, and operational readiness.",
       "highlights": [
-        "Anti-Naxal Operations",
-        "Intelligence Collection, Anlaysis and Dissemination",
-        "Monitoring of UAPA Cases",
-        "Naxal Surrender Policy ",
-        "Commanding Officer of Distrcit Reserve Guard",
-        "Multi-Agency and Inter-State Coordination in ANOs."
+        "Operational planning for anti-Naxal deployments",
+        "Intelligence collection, analysis, and dissemination",
+        "Monitoring of UAPA-related matters",
+        "Coordination on Naxal surrender policy",
+        "Command responsibility for the District Reserve Guard",
+        "Inter-agency and inter-state operational coordination"
       ]
     },
     {
-      "company": "CSP Jagdalpur",
+      "company": "Jagdalpur Police",
       "position": "City Superintendent of Police, Jagdalpur",
       "startDate": "February 2024",
       "endDate": "May 2025",
-      "summary": "Urban Town in the region of Bastar of 2 lakh population. The demographics included Minorities, College Students and Trtibal polulation.",
+      "summary": "Oversaw urban policing in Jagdalpur, including law and order, investigations, public events, and security arrangements in a sensitive operational environment.",
       "highlights": [
-        "Supervision of Criminal Investigations",
-        "Maintenace of Law and Order",
-        "Large Crowd and Public Meetings",
-        "Security to Personnel in Naxal Affected Areas",
-        "Special Emphasis on Investigation of Cyber Crimes",
-        "Police Station Manaegemnt",
-        "Crime Analytics Dashboard"
+        "Supervision of criminal investigations",
+        "Maintenance of law and order",
+        "Planning for large public gatherings and events",
+        "Security management in Left Wing Extremism-affected areas",
+        "Focus on cybercrime investigations",
+        "Police station management and review",
+        "Use of crime analytics dashboards"
       ]
     },
     {
-      "company": "Raigarh",
-      "position": "Officer in Probation",
+      "company": "Raigarh District",
+      "position": "Officer on Probation",
       "startDate": "April 2023",
       "endDate": "October 2023",
-      "summary": "Under Probation - Distrcit Practical Training in Raigarh, Chattisgarh",
+      "summary": "Completed district practical training across multiple wings of administration and policing during probation.",
       "highlights": [
-        "Several Attachments with various wings of District Administration, Raigarh",
-        "Station House Officer - 3 months",
-        "Intelligence Attachement",
-        "Higher Judiciary Attchement"
+        "Attachments with district administration units",
+        "Station House Officer attachment",
+        "Intelligence attachment",
+        "Judicial attachment"
       ]
     }
   ],
   "volunteer": [
-     {
-      "organization": "Strategic Leadership Program",
-      "position": "Indian Institute of Management Ahmedabad",
-      "startDate": "September",
+    {
+      "organization": "Indian Institute of Management Ahmedabad",
+      "position": "Strategic Leadership Programme",
+      "startDate": "September 2023",
       "endDate": "2023",
-      "summary": ""
+      "summary": "Executive training in leadership, decision-making, and strategic thinking."
     },
     {
-      "organization": "Basic Course",
-      "position": "SVP National Police Academy Hyderabad",
-     // "website": "",
+      "organization": "Sardar Vallabhbhai Patel National Police Academy, Hyderabad",
+      "position": "Basic Course",
       "startDate": "March 2022",
       "endDate": "October 2023",
-      "summary": ""
+      "summary": "Core police training covering leadership, law, operations, investigation, and fieldcraft."
     },
     {
-      "organization": "Foundation Course",
-      "position": "LBS National Academy of Administration Mussorie",
-     // "website": "",
+      "organization": "LBS National Academy of Administration, Mussoorie",
+      "position": "Foundation Course",
       "startDate": "December 2021",
       "endDate": "March 2022",
-      "summary": ""
-    }, 
+      "summary": "Foundational civil service training with emphasis on governance, administration, and public policy."
+    },
     {
-      "organization": "Young Commando Course",
-      "position": "Counter Terrorism and Jungle Warfare College",
-     // "website": "",
-      "startDate": "Kanker",
-      "endDate": "December 2023",
-      "summary": ""
+      "organization": "Counter Terrorism and Jungle Warfare College, Kanker",
+      "position": "Young Commando Course",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Specialized training in endurance, tactics, and field operations in jungle terrain."
     }
   ],
   "education": [
     {
       "institution": "Indian Institute of Technology, Kanpur",
       "area": "Electrical Engineering",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor of Technology",
       "startDate": "August 2011",
       "endDate": "April 2015"
-    }, 
+    },
     {
-      "institution": "Nalsar University of Law, Hyderabad",
-      "area": "Criminal Justice Management",
-      "studyType": "Master",
+      "institution": "NALSAR University of Law, Hyderabad",
+      "area": "Criminal Justice",
+      "studyType": "Master's",
       "startDate": "March 2022",
       "endDate": "October 2023"
     }
   ],
-  "awards": [
-    {
-      "title": "Warble Pioneer Award",
-      "date": "2001-11-01",
-      "awarder": "Levi Goulet",
-      "summary": "Have you seen my turtle?"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Radio Julius",
-      "publisher": "Tanyo Lubbock",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.rhy.es",
-      "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
-    }
-  ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Horse Riding",
-      "level": "Beginnner",
+      "name": "Operations and Field Leadership",
+      "level": "Advanced",
       "keywords": [
-        ""
+        "Operational planning",
+        "Field coordination",
+        "Team leadership"
       ]
     },
     {
-      "name": "Table Tennis",
-      "level": "Professional",
+      "name": "Investigation and Intelligence",
+      "level": "Advanced",
+      "keywords": [
+        "Criminal investigations",
+        "Intelligence analysis",
+        "Cybercrime emphasis"
+      ]
     },
     {
-      "name": "Guitar",
-      "level": "Intermediate",
+      "name": "Interests and Activities",
+      "level": "Ongoing",
+      "keywords": [
+        "Guitar",
+        "Horse riding",
+        "Table tennis",
+        "Travel photography"
+      ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": ""
+      "fluency": "Professional working proficiency"
     },
     {
       "language": "Hindi",
-      "fluency": "Native speaker"
+      "fluency": "Native proficiency"
     }
   ],
   "interests": [
     {
-      "name": "Mountaineering",
+      "name": "Outdoors",
       "keywords": [
+        "Trekking",
         "Hiking",
-        "Trekking"
+        "Mountaineering"
+      ]
+    },
+    {
+      "name": "Creative Pursuits",
+      "keywords": [
+        "Writing",
+        "Photography",
+        "Guitar"
       ]
     }
   ],
-  "references": [
-    {
-      "name": " Nannette Nananacci",
-      "reference": "It is my pleasure to recommend Dugan Nash, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
+  "references": []
 }

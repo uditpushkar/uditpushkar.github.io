@@ -5,6 +5,11 @@
       {% if cv.basics.label %}
         <p class="intro-subtitle">{{ cv.basics.label | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}
+      {% if cv.basics.summary %}
+        <div class="intro-more">
+          {{ cv.basics.summary | markdownify }}
+        </div>
+      {% endif %}
 
       {% if page.actions %}
         <ul class="intro-actions">

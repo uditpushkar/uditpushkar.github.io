@@ -74,47 +74,99 @@ main {
 }
 
 .layout--about {
-  .entry-wrap {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  .about-shell {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
 
     @include breakpoint($medium) {
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+      padding: 0 2rem;
+    }
+
+    @include breakpoint($large) {
+      padding: 0 3rem;
+    }
+  }
+
+  .entry-wrap {
+    display: block;
+
+    @include breakpoint($medium) {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 2.5rem;
+      align-items: start;
     }
   }
 
   .entry-content {
-    @include breakpoint($medium) {
-      -ms-flex: 1;
-      flex: 1;
-    }
+    min-width: 0;
   }
 
   .entry-sidebar {
-    order: -1;
-    -ms-flex-order: -1;
+    margin-bottom: 2rem;
 
     @include breakpoint($medium) {
-      order: initial;
-      -ms-flex-order: initial;
+      margin-bottom: 0;
     }
 
     .author-picture {
-      margin: 0 0 2rem;
-      border-radius: 2 * $border-radius;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto 1.25rem;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 
       @include breakpoint($medium) {
-        margin: 0 0 0 2rem;
+        margin: 0 auto 1.25rem;
       }
     }
+  }
+
+  .author-profile {
+    padding: 1.5rem;
+    text-align: center;
+    background: lighten($background-color, 2%);
+    border: 1px solid $border-color;
+    border-radius: 18px;
+
+    @include breakpoint($medium) {
+      width: 100%;
+      position: sticky;
+      top: 2rem;
+    }
+  }
+
+  .author-name {
+    margin: 0;
+    color: tint($text-color, 20%);
+    font-size: 1.4rem;
+  }
+
+  .author-name-hi {
+    margin: 0.5rem 0 0;
+    padding-top: 0.9rem;
+    color: tint($text-color, 40%);
+    font-size: 1.1rem;
+    border-top: 1px solid $border-color;
+  }
+
+  .author-role,
+  .author-location {
+    margin: 0.75rem 0 0;
+    color: tint($text-color, 45%);
+    font-size: 0.95rem;
   }
 }
 
 .layout--cv {
   .entries {
+    .summary {
+      margin-bottom: 2rem;
+    }
+
     .entry-header {
       @include breakpoint($medium) {
         width: span(5 of 16);
@@ -131,6 +183,21 @@ main {
       @include breakpoint($medium) {
         float: right;
         width: span(11 of 16);
+      }
+
+      .cv-item + .cv-item {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid $border-color;
+      }
+
+      .highlights {
+        margin-top: 0.75rem;
+        padding-left: 1.2rem;
+      }
+
+      .summary p {
+        margin-bottom: 0;
       }
     }
   }

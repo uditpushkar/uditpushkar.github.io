@@ -10,6 +10,9 @@
           {% if s.name %}
             <h4 class="title">{{ s.name }}</h4>
           {% endif %}
+          {% if s.level %}
+            <div class="level">{{ s.level }}</div>
+          {% endif %}
           {% if s.keywords %}
             <span class="keywords">{{ s.keywords | array_to_sentence_string }}</span>
           {% endif %}
