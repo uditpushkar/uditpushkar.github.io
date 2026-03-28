@@ -186,3 +186,24 @@ main {
     }
   }
 }
+
+.layout--pictures {
+  .pictures-shell {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .pictures-shell {
+      padding: 1.5rem 2rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .pictures-shell {
+      padding: 2rem 3rem;
+    }
+  }
+}

@@ -2,7 +2,9 @@
   {% include google-analytics.html %}
 {% endif %}
 
-<script async src="{{ '/assets/javascripts/main.js' | relative_url }}"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="{{ '/assets/javascripts/main.js' | relative_url }}"></script>
 
 {% if site.search %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}

@@ -1,0 +1,35 @@
+albums:
+  - title: 
+    slug: wildlife
+    images:
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1773135114/DSC_0326_w79ngb.jpg"
+        alt: "Forest trail"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1773135113/DSC_0387_wnpqbk.jpg"
+        alt: "Morning safari"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1772815151/samples/animals/reindeer.jpg"
+        alt: "Morning safari"
+
+  - title: 
+    slug: raipur
+    images:
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1774697368/mayfair-lake-resort_l1z0gn.jpg"
+        alt: "City street"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1774697368/raipur-airports-runway-has-been-extended-to-3250-m-from-v0-88usnpa24mhd1_qyfgnr.jpg"
+        alt: "Airport"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1772815149/samples/animals/cat.jpg"
+        alt: "Airport"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1772815155/samples/landscapes/landscape-panorama.jpg"
+        alt: "Airport"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1772815153/samples/landscapes/beach-boat.jpg"
+        alt: "Airport"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1772815152/samples/landscapes/girl-urban-view.jpg"
+        alt: "Airport"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1772815155/samples/landscapes/nature-mountains.jpg"
+        alt: "Airport"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1772815153/samples/landscapes/architecture-signs.jpg"
+        alt: "Airport"
+      - src: "https://res.cloudinary.com/dgp64eocv/image/upload/v1772815152/samples/people/jazz.jpg"
+        alt: "Airport"
+
+       
+       

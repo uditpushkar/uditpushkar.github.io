@@ -1,0 +1,7 @@
+{
+  "name": "pluto-in-making",
+  "private": true,
+  "scripts": {
+    "sync:pictures": "node scripts/sync-cloudinary-gallery.js"
+  }
+}

@@ -1,0 +1,65 @@
+name: Cloudinary Gallery Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "_data/cloudinary_gallery.json"
+
+jobs:
+  sync-gallery:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check Cloudinary configuration
+        id: cloudinary_config
+        env:
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: |
+          if [ -n "$CLOUDINARY_CLOUD_NAME" ] && [ -n "$CLOUDINARY_API_KEY" ] && [ -n "$CLOUDINARY_API_SECRET" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Cloudinary secrets are not configured. Skipping gallery sync."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Sync Cloudinary gallery data
+        if: steps.cloudinary_config.outputs.ready == 'true'
+        env:
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          CLOUDINARY_GALLERY_PREFIX: ${{ vars.CLOUDINARY_GALLERY_PREFIX }}
+        run: node scripts/sync-cloudinary-gallery.js
+
+      - name: Commit updated gallery data
+        if: steps.cloudinary_config.outputs.ready == 'true'
+        run: |
+          if git diff --quiet -- _data/cloudinary_gallery.json; then
+            echo "No gallery changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/cloudinary_gallery.json
+          git commit -m "chore: sync Cloudinary gallery"
+          git push

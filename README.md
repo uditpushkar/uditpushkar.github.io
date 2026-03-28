@@ -45,6 +45,52 @@ below) into your project.
    bundle install
    ```
 
+## Pictures Gallery Automation
+
+This site can generate the `Pictures` page from all images in a Cloudinary account at build time.
+
+### Local sync
+
+Set these environment variables locally:
+
+```terminal
+export CLOUDINARY_CLOUD_NAME=your-cloud-name
+export CLOUDINARY_API_KEY=your-api-key
+export CLOUDINARY_API_SECRET=your-api-secret
+```
+
+Optional:
+
+```terminal
+export CLOUDINARY_GALLERY_PREFIX=albums/
+```
+
+If `CLOUDINARY_GALLERY_PREFIX` is omitted, the sync script fetches every image in the Cloudinary account.
+
+Then run:
+
+```terminal
+npm run sync:pictures
+```
+
+This generates `_data/cloudinary_gallery.json`, which Jekyll uses to render the gallery page.
+
+### GitHub Actions sync
+
+The workflow at `.github/workflows/cloudinary-gallery-sync.yml` can refresh gallery data automatically.
+
+Add these repository secrets:
+
+- `CLOUDINARY_CLOUD_NAME`
+- `CLOUDINARY_API_KEY`
+- `CLOUDINARY_API_SECRET`
+
+Optionally add this repository variable:
+
+- `CLOUDINARY_GALLERY_PREFIX`
+
+The workflow runs every 6 hours, can be triggered manually, and commits gallery data changes back to `main`.
+
 ### GitHub Pages Method
 
 GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme-with-github-pages) 

@@ -1,0 +1,761 @@
+{
+  "generated_at": "2026-03-28T15:29:47.120Z",
+  "source_prefix": null,
+  "total_images": 83,
+  "albums": [
+    {
+      "title": "All Photos",
+      "slug": "all-photos",
+      "images": [
+        {
+          "public_id": "IMG_2692_b7fr9f",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711734/IMG_2692_b7fr9f.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711734/IMG_2692_b7fr9f.jpg",
+          "alt": "IMG 2692 b7fr9f",
+          "width": 2268,
+          "height": 4032,
+          "created_at": "2026-03-28T15:28:54Z"
+        },
+        {
+          "public_id": "DSC_0277_llwfa8",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711733/DSC_0277_llwfa8.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711733/DSC_0277_llwfa8.jpg",
+          "alt": "DSC 0277 llwfa8",
+          "width": 4000,
+          "height": 6000,
+          "created_at": "2026-03-28T15:28:53Z"
+        },
+        {
+          "public_id": "IMG_3222_umryy1",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711730/IMG_3222_umryy1.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711730/IMG_3222_umryy1.jpg",
+          "alt": "IMG 3222 umryy1",
+          "width": 3024,
+          "height": 4032,
+          "created_at": "2026-03-28T15:28:50Z"
+        },
+        {
+          "public_id": "DSC_0176_dofqvl",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711727/DSC_0176_dofqvl.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711727/DSC_0176_dofqvl.jpg",
+          "alt": "DSC 0176 dofqvl",
+          "width": 6000,
+          "height": 4000,
+          "created_at": "2026-03-28T15:28:47Z"
+        },
+        {
+          "public_id": "IMG_3247_hu0xfg",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711725/IMG_3247_hu0xfg.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711725/IMG_3247_hu0xfg.jpg",
+          "alt": "IMG 3247 hu0xfg",
+          "width": 4032,
+          "height": 3024,
+          "created_at": "2026-03-28T15:28:45Z"
+        },
+        {
+          "public_id": "IMG_3175_fnxcut",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711723/IMG_3175_fnxcut.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711723/IMG_3175_fnxcut.jpg",
+          "alt": "IMG 3175 fnxcut",
+          "width": 1280,
+          "height": 960,
+          "created_at": "2026-03-28T15:28:43Z"
+        },
+        {
+          "public_id": "IMG_3174_ujftbv",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711723/IMG_3174_ujftbv.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711723/IMG_3174_ujftbv.jpg",
+          "alt": "IMG 3174 ujftbv",
+          "width": 1280,
+          "height": 1280,
+          "created_at": "2026-03-28T15:28:43Z"
+        },
+        {
+          "public_id": "IMG_0687_r1ikv0",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711718/IMG_0687_r1ikv0.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711718/IMG_0687_r1ikv0.jpg",
+          "alt": "IMG 0687 r1ikv0",
+          "width": 978,
+          "height": 854,
+          "created_at": "2026-03-28T15:28:38Z"
+        },
+        {
+          "public_id": "DSC_0190_h6wwz1",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711718/DSC_0190_h6wwz1.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711718/DSC_0190_h6wwz1.jpg",
+          "alt": "DSC 0190 h6wwz1",
+          "width": 6000,
+          "height": 4000,
+          "created_at": "2026-03-28T15:28:38Z"
+        },
+        {
+          "public_id": "DSC_0261_wuxv9o",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711717/DSC_0261_wuxv9o.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711717/DSC_0261_wuxv9o.jpg",
+          "alt": "DSC 0261 wuxv9o",
+          "width": 6000,
+          "height": 4000,
+          "created_at": "2026-03-28T15:28:37Z"
+        },
+        {
+          "public_id": "IMG_3317_ayp6om",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711713/IMG_3317_ayp6om.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711713/IMG_3317_ayp6om.jpg",
+          "alt": "IMG 3317 ayp6om",
+          "width": 1280,
+          "height": 850,
+          "created_at": "2026-03-28T15:28:33Z"
+        },
+        {
+          "public_id": "DSC_0181_b1ihct",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711712/DSC_0181_b1ihct.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711712/DSC_0181_b1ihct.jpg",
+          "alt": "DSC 0181 b1ihct",
+          "width": 6000,
+          "height": 4000,
+          "created_at": "2026-03-28T15:28:32Z"
+        },
+        {
+          "public_id": "IMG_3376_pojdsp",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711712/IMG_3376_pojdsp.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711712/IMG_3376_pojdsp.jpg",
+          "alt": "IMG 3376 pojdsp",
+          "width": 1280,
+          "height": 854,
+          "created_at": "2026-03-28T15:28:32Z"
+        },
+        {
+          "public_id": "DSC_0233_xoical",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711708/DSC_0233_xoical.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711708/DSC_0233_xoical.jpg",
+          "alt": "DSC 0233 xoical",
+          "width": 6000,
+          "height": 4000,
+          "created_at": "2026-03-28T15:28:28Z"
+        },
+        {
+          "public_id": "DSC_0271_jh6yw7",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711683/DSC_0271_jh6yw7.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711683/DSC_0271_jh6yw7.jpg",
+          "alt": "DSC 0271 jh6yw7",
+          "width": 4000,
+          "height": 6000,
+          "created_at": "2026-03-28T15:28:03Z"
+        },
+        {
+          "public_id": "DSC_0285_zpq7ti",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774711681/DSC_0285_zpq7ti.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774711681/DSC_0285_zpq7ti.jpg",
+          "alt": "DSC 0285 zpq7ti",
+          "width": 4000,
+          "height": 6000,
+          "created_at": "2026-03-28T15:28:01Z"
+        },
+        {
+          "public_id": "raipur-airports-runway-has-been-extended-to-3250-m-from-v0-88usnpa24mhd1_qyfgnr",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774697368/raipur-airports-runway-has-been-extended-to-3250-m-from-v0-88usnpa24mhd1_qyfgnr.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774697368/raipur-airports-runway-has-been-extended-to-3250-m-from-v0-88usnpa24mhd1_qyfgnr.jpg",
+          "alt": "raipur airports runway has been extended to 3250 m from v0 88usnpa24mhd1 qyfgnr",
+          "width": 640,
+          "height": 480,
+          "created_at": "2026-03-28T11:29:28Z"
+        },
+        {
+          "public_id": "mayfair-lake-resort_l1z0gn",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774697368/mayfair-lake-resort_l1z0gn.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774697368/mayfair-lake-resort_l1z0gn.jpg",
+          "alt": "mayfair lake resort l1z0gn",
+          "width": 900,
+          "height": 506,
+          "created_at": "2026-03-28T11:29:28Z"
+        },
+        {
+          "public_id": "full-of-blocks-nava-raipur-india-v0-tbauh5o01gqg1_ghb8au",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1774697368/full-of-blocks-nava-raipur-india-v0-tbauh5o01gqg1_ghb8au.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1774697368/full-of-blocks-nava-raipur-india-v0-tbauh5o01gqg1_ghb8au.jpg",
+          "alt": "full of blocks nava raipur india v0 tbauh5o01gqg1 ghb8au",
+          "width": 1918,
+          "height": 1080,
+          "created_at": "2026-03-28T11:29:28Z"
+        },
+        {
+          "public_id": "DSC_0326_w79ngb",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1773135114/DSC_0326_w79ngb.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1773135114/DSC_0326_w79ngb.jpg",
+          "alt": "DSC 0326 w79ngb",
+          "width": 6000,
+          "height": 4000,
+          "created_at": "2026-03-10T09:31:54Z"
+        },
+        {
+          "public_id": "DSC_0419_xdoapy",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1773135113/DSC_0419_xdoapy.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1773135113/DSC_0419_xdoapy.jpg",
+          "alt": "DSC 0419 xdoapy",
+          "width": 6000,
+          "height": 4000,
+          "created_at": "2026-03-10T09:31:53Z"
+        },
+        {
+          "public_id": "DSC_0387_wnpqbk",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1773135113/DSC_0387_wnpqbk.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1773135113/DSC_0387_wnpqbk.jpg",
+          "alt": "DSC 0387 wnpqbk",
+          "width": 6000,
+          "height": 4000,
+          "created_at": "2026-03-10T09:31:53Z"
+        },
+        {
+          "public_id": "albums/wildlife/barnawa_cover_ianvto",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1773131536/albums/wildlife/barnawa_cover_ianvto.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1773131536/albums/wildlife/barnawa_cover_ianvto.jpg",
+          "alt": "barnawa cover ianvto",
+          "width": 5733,
+          "height": 2882,
+          "created_at": "2026-03-10T08:32:16Z"
+        },
+        {
+          "public_id": "main-sample",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815166/main-sample.png",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815166/main-sample.png",
+          "alt": "main sample",
+          "width": 1248,
+          "height": 832,
+          "created_at": "2026-03-06T16:39:26Z"
+        },
+        {
+          "public_id": "cld-sample-4",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815166/cld-sample-4.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815166/cld-sample-4.jpg",
+          "alt": "cld sample 4",
+          "width": 1870,
+          "height": 1250,
+          "created_at": "2026-03-06T16:39:26Z"
+        },
+        {
+          "public_id": "cld-sample-3",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815166/cld-sample-3.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815166/cld-sample-3.jpg",
+          "alt": "cld sample 3",
+          "width": 1870,
+          "height": 1250,
+          "created_at": "2026-03-06T16:39:26Z"
+        },
+        {
+          "public_id": "cld-sample-5",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815166/cld-sample-5.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815166/cld-sample-5.jpg",
+          "alt": "cld sample 5",
+          "width": 1870,
+          "height": 1250,
+          "created_at": "2026-03-06T16:39:26Z"
+        },
+        {
+          "public_id": "cld-sample-2",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815165/cld-sample-2.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815165/cld-sample-2.jpg",
+          "alt": "cld sample 2",
+          "width": 1870,
+          "height": 1250,
+          "created_at": "2026-03-06T16:39:25Z"
+        },
+        {
+          "public_id": "cld-sample",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815165/cld-sample.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815165/cld-sample.jpg",
+          "alt": "cld sample",
+          "width": 1870,
+          "height": 1250,
+          "created_at": "2026-03-06T16:39:25Z"
+        },
+        {
+          "public_id": "samples/radial_02",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815165/samples/radial_02.png",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815165/samples/radial_02.png",
+          "alt": "radial 02",
+          "width": 427,
+          "height": 271,
+          "created_at": "2026-03-06T16:39:25Z"
+        },
+        {
+          "public_id": "samples/paper",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815164/samples/paper.png",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815164/samples/paper.png",
+          "alt": "paper",
+          "width": 1024,
+          "height": 1024,
+          "created_at": "2026-03-06T16:39:24Z"
+        },
+        {
+          "public_id": "samples/waves",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815164/samples/waves.png",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815164/samples/waves.png",
+          "alt": "waves",
+          "width": 1024,
+          "height": 1024,
+          "created_at": "2026-03-06T16:39:24Z"
+        },
+        {
+          "public_id": "samples/zoom",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815164/samples/zoom.avif",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815164/samples/zoom.avif",
+          "alt": "zoom",
+          "width": 484,
+          "height": 324,
+          "created_at": "2026-03-06T16:39:24Z"
+        },
+        {
+          "public_id": "samples/radial",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815164/samples/radial.avif",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815164/samples/radial.avif",
+          "alt": "radial",
+          "width": 950,
+          "height": 640,
+          "created_at": "2026-03-06T16:39:24Z"
+        },
+        {
+          "public_id": "samples/canvas",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815164/samples/canvas.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815164/samples/canvas.jpg",
+          "alt": "canvas",
+          "width": 600,
+          "height": 388,
+          "created_at": "2026-03-06T16:39:24Z"
+        },
+        {
+          "public_id": "samples/woman-on-a-football-field",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815163/samples/woman-on-a-football-field.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815163/samples/woman-on-a-football-field.jpg",
+          "alt": "woman on a football field",
+          "width": 1200,
+          "height": 1350,
+          "created_at": "2026-03-06T16:39:23Z"
+        },
+        {
+          "public_id": "samples/logo",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815163/samples/logo.png",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815163/samples/logo.png",
+          "alt": "logo",
+          "width": 480,
+          "height": 314,
+          "created_at": "2026-03-06T16:39:23Z"
+        },
+        {
+          "public_id": "samples/dessert-on-a-plate",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815163/samples/dessert-on-a-plate.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815163/samples/dessert-on-a-plate.jpg",
+          "alt": "dessert on a plate",
+          "width": 1200,
+          "height": 1200,
+          "created_at": "2026-03-06T16:39:23Z"
+        },
+        {
+          "public_id": "samples/upscale-face-1",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815163/samples/upscale-face-1.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815163/samples/upscale-face-1.jpg",
+          "alt": "upscale face 1",
+          "width": 233,
+          "height": 233,
+          "created_at": "2026-03-06T16:39:23Z"
+        },
+        {
+          "public_id": "samples/cup-on-a-table",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815162/samples/cup-on-a-table.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815162/samples/cup-on-a-table.jpg",
+          "alt": "cup on a table",
+          "width": 2246,
+          "height": 1500,
+          "created_at": "2026-03-06T16:39:22Z"
+        },
+        {
+          "public_id": "samples/coffee",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815162/samples/coffee.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815162/samples/coffee.jpg",
+          "alt": "coffee",
+          "width": 1920,
+          "height": 1280,
+          "created_at": "2026-03-06T16:39:22Z"
+        },
+        {
+          "public_id": "samples/chair",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815162/samples/chair.png",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815162/samples/chair.png",
+          "alt": "chair",
+          "width": 800,
+          "height": 600,
+          "created_at": "2026-03-06T16:39:22Z"
+        },
+        {
+          "public_id": "samples/chair-and-coffee-table",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815162/samples/chair-and-coffee-table.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815162/samples/chair-and-coffee-table.jpg",
+          "alt": "chair and coffee table",
+          "width": 1001,
+          "height": 1500,
+          "created_at": "2026-03-06T16:39:22Z"
+        },
+        {
+          "public_id": "samples/man-portrait",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815161/samples/man-portrait.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815161/samples/man-portrait.jpg",
+          "alt": "man portrait",
+          "width": 1333,
+          "height": 2000,
+          "created_at": "2026-03-06T16:39:21Z"
+        },
+        {
+          "public_id": "samples/man-on-a-street",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815161/samples/man-on-a-street.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815161/samples/man-on-a-street.jpg",
+          "alt": "man on a street",
+          "width": 1340,
+          "height": 1340,
+          "created_at": "2026-03-06T16:39:21Z"
+        },
+        {
+          "public_id": "samples/man-on-a-escalator",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815161/samples/man-on-a-escalator.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815161/samples/man-on-a-escalator.jpg",
+          "alt": "man on a escalator",
+          "width": 1340,
+          "height": 1340,
+          "created_at": "2026-03-06T16:39:21Z"
+        },
+        {
+          "public_id": "samples/outdoor-woman",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815160/samples/outdoor-woman.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815160/samples/outdoor-woman.jpg",
+          "alt": "outdoor woman",
+          "width": 640,
+          "height": 963,
+          "created_at": "2026-03-06T16:39:20Z"
+        },
+        {
+          "public_id": "samples/look-up",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815160/samples/look-up.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815160/samples/look-up.jpg",
+          "alt": "look up",
+          "width": 900,
+          "height": 900,
+          "created_at": "2026-03-06T16:39:20Z"
+        },
+        {
+          "public_id": "samples/breakfast",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815159/samples/breakfast.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815159/samples/breakfast.jpg",
+          "alt": "breakfast",
+          "width": 2447,
+          "height": 2196,
+          "created_at": "2026-03-06T16:39:19Z"
+        },
+        {
+          "public_id": "samples/smile",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815159/samples/smile.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815159/samples/smile.jpg",
+          "alt": "smile",
+          "width": 1552,
+          "height": 1000,
+          "created_at": "2026-03-06T16:39:19Z"
+        },
+        {
+          "public_id": "samples/balloons",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815159/samples/balloons.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815159/samples/balloons.jpg",
+          "alt": "balloons",
+          "width": 1000,
+          "height": 667,
+          "created_at": "2026-03-06T16:39:19Z"
+        },
+        {
+          "public_id": "samples/shoe",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815158/samples/shoe.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815158/samples/shoe.jpg",
+          "alt": "shoe",
+          "width": 1000,
+          "height": 1140,
+          "created_at": "2026-03-06T16:39:18Z"
+        },
+        {
+          "public_id": "samples/two-ladies",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815157/samples/two-ladies.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815157/samples/two-ladies.jpg",
+          "alt": "two ladies",
+          "width": 1500,
+          "height": 1200,
+          "created_at": "2026-03-06T16:39:17Z"
+        },
+        {
+          "public_id": "samples/landscapes/landscape-panorama",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815155/samples/landscapes/landscape-panorama.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815155/samples/landscapes/landscape-panorama.jpg",
+          "alt": "landscape panorama",
+          "width": 10906,
+          "height": 2349,
+          "created_at": "2026-03-06T16:39:15Z"
+        },
+        {
+          "public_id": "samples/animals/kitten-playing",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815155/samples/animals/kitten-playing.gif",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815155/samples/animals/kitten-playing.gif",
+          "alt": "kitten playing",
+          "width": 320,
+          "height": 180,
+          "created_at": "2026-03-06T16:39:15Z"
+        },
+        {
+          "public_id": "samples/landscapes/nature-mountains",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815155/samples/landscapes/nature-mountains.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815155/samples/landscapes/nature-mountains.jpg",
+          "alt": "nature mountains",
+          "width": 3000,
+          "height": 2000,
+          "created_at": "2026-03-06T16:39:15Z"
+        },
+        {
+          "public_id": "samples/cloudinary-group",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815155/samples/cloudinary-group.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815155/samples/cloudinary-group.jpg",
+          "alt": "cloudinary group",
+          "width": 3000,
+          "height": 1526,
+          "created_at": "2026-03-06T16:39:15Z"
+        },
+        {
+          "public_id": "samples/food/spices",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815155/samples/food/spices.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815155/samples/food/spices.jpg",
+          "alt": "spices",
+          "width": 2000,
+          "height": 2000,
+          "created_at": "2026-03-06T16:39:15Z"
+        },
+        {
+          "public_id": "samples/ecommerce/accessories-bag",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815154/samples/ecommerce/accessories-bag.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815154/samples/ecommerce/accessories-bag.jpg",
+          "alt": "accessories bag",
+          "width": 3000,
+          "height": 2000,
+          "created_at": "2026-03-06T16:39:14Z"
+        },
+        {
+          "public_id": "samples/imagecon-group",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815154/samples/imagecon-group.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815154/samples/imagecon-group.jpg",
+          "alt": "imagecon group",
+          "width": 2800,
+          "height": 1867,
+          "created_at": "2026-03-06T16:39:14Z"
+        },
+        {
+          "public_id": "samples/ecommerce/leather-bag-gray",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815154/samples/ecommerce/leather-bag-gray.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815154/samples/ecommerce/leather-bag-gray.jpg",
+          "alt": "leather bag gray",
+          "width": 2385,
+          "height": 1590,
+          "created_at": "2026-03-06T16:39:14Z"
+        },
+        {
+          "public_id": "samples/ecommerce/car-interior-design",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815154/samples/ecommerce/car-interior-design.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815154/samples/ecommerce/car-interior-design.jpg",
+          "alt": "car interior design",
+          "width": 2000,
+          "height": 2667,
+          "created_at": "2026-03-06T16:39:14Z"
+        },
+        {
+          "public_id": "samples/landscapes/beach-boat",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815153/samples/landscapes/beach-boat.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815153/samples/landscapes/beach-boat.jpg",
+          "alt": "beach boat",
+          "width": 2600,
+          "height": 1950,
+          "created_at": "2026-03-06T16:39:13Z"
+        },
+        {
+          "public_id": "samples/people/bicycle",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815153/samples/people/bicycle.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815153/samples/people/bicycle.jpg",
+          "alt": "bicycle",
+          "width": 2889,
+          "height": 1926,
+          "created_at": "2026-03-06T16:39:13Z"
+        },
+        {
+          "public_id": "samples/animals/three-dogs",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815153/samples/animals/three-dogs.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815153/samples/animals/three-dogs.jpg",
+          "alt": "three dogs",
+          "width": 2700,
+          "height": 1800,
+          "created_at": "2026-03-06T16:39:13Z"
+        },
+        {
+          "public_id": "samples/landscapes/architecture-signs",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815153/samples/landscapes/architecture-signs.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815153/samples/landscapes/architecture-signs.jpg",
+          "alt": "architecture signs",
+          "width": 3000,
+          "height": 2000,
+          "created_at": "2026-03-06T16:39:13Z"
+        },
+        {
+          "public_id": "samples/people/boy-snow-hoodie",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815152/samples/people/boy-snow-hoodie.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815152/samples/people/boy-snow-hoodie.jpg",
+          "alt": "boy snow hoodie",
+          "width": 1777,
+          "height": 1332,
+          "created_at": "2026-03-06T16:39:12Z"
+        },
+        {
+          "public_id": "samples/people/jazz",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815152/samples/people/jazz.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815152/samples/people/jazz.jpg",
+          "alt": "jazz",
+          "width": 3000,
+          "height": 1993,
+          "created_at": "2026-03-06T16:39:12Z"
+        },
+        {
+          "public_id": "samples/bike",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815152/samples/bike.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815152/samples/bike.jpg",
+          "alt": "bike",
+          "width": 2000,
+          "height": 1333,
+          "created_at": "2026-03-06T16:39:12Z"
+        },
+        {
+          "public_id": "samples/ecommerce/shoes",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815152/samples/ecommerce/shoes.png",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815152/samples/ecommerce/shoes.png",
+          "alt": "shoes",
+          "width": 587,
+          "height": 507,
+          "created_at": "2026-03-06T16:39:12Z"
+        },
+        {
+          "public_id": "samples/landscapes/girl-urban-view",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815152/samples/landscapes/girl-urban-view.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815152/samples/landscapes/girl-urban-view.jpg",
+          "alt": "girl urban view",
+          "width": 2048,
+          "height": 1252,
+          "created_at": "2026-03-06T16:39:12Z"
+        },
+        {
+          "public_id": "samples/people/smiling-man",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815152/samples/people/smiling-man.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815152/samples/people/smiling-man.jpg",
+          "alt": "smiling man",
+          "width": 849,
+          "height": 565,
+          "created_at": "2026-03-06T16:39:12Z"
+        },
+        {
+          "public_id": "samples/sheep",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815151/samples/sheep.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815151/samples/sheep.jpg",
+          "alt": "sheep",
+          "width": 1600,
+          "height": 1067,
+          "created_at": "2026-03-06T16:39:11Z"
+        },
+        {
+          "public_id": "samples/food/fish-vegetables",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815151/samples/food/fish-vegetables.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815151/samples/food/fish-vegetables.jpg",
+          "alt": "fish vegetables",
+          "width": 1220,
+          "height": 813,
+          "created_at": "2026-03-06T16:39:11Z"
+        },
+        {
+          "public_id": "samples/food/pot-mussels",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815151/samples/food/pot-mussels.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815151/samples/food/pot-mussels.jpg",
+          "alt": "pot mussels",
+          "width": 1220,
+          "height": 818,
+          "created_at": "2026-03-06T16:39:11Z"
+        },
+        {
+          "public_id": "samples/animals/reindeer",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815151/samples/animals/reindeer.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815151/samples/animals/reindeer.jpg",
+          "alt": "reindeer",
+          "width": 1220,
+          "height": 813,
+          "created_at": "2026-03-06T16:39:11Z"
+        },
+        {
+          "public_id": "samples/people/kitchen-bar",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815151/samples/people/kitchen-bar.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815151/samples/people/kitchen-bar.jpg",
+          "alt": "kitchen bar",
+          "width": 1220,
+          "height": 813,
+          "created_at": "2026-03-06T16:39:11Z"
+        },
+        {
+          "public_id": "samples/food/dessert",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815150/samples/food/dessert.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815150/samples/food/dessert.jpg",
+          "alt": "dessert",
+          "width": 1220,
+          "height": 813,
+          "created_at": "2026-03-06T16:39:10Z"
+        },
+        {
+          "public_id": "samples/ecommerce/analog-classic",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815150/samples/ecommerce/analog-classic.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815150/samples/ecommerce/analog-classic.jpg",
+          "alt": "analog classic",
+          "width": 1280,
+          "height": 853,
+          "created_at": "2026-03-06T16:39:10Z"
+        },
+        {
+          "public_id": "samples/cloudinary-logo-vector",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815149/samples/cloudinary-logo-vector.svg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815149/samples/cloudinary-logo-vector.svg",
+          "alt": "cloudinary logo vector",
+          "width": 1000,
+          "height": 320,
+          "created_at": "2026-03-06T16:39:09Z"
+        },
+        {
+          "public_id": "samples/animals/cat",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815149/samples/animals/cat.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815149/samples/animals/cat.jpg",
+          "alt": "cat",
+          "width": 768,
+          "height": 1024,
+          "created_at": "2026-03-06T16:39:09Z"
+        },
+        {
+          "public_id": "samples/cloudinary-icon",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815149/samples/cloudinary-icon.png",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815149/samples/cloudinary-icon.png",
+          "alt": "cloudinary icon",
+          "width": 1000,
+          "height": 1000,
+          "created_at": "2026-03-06T16:39:09Z"
+        },
+        {
+          "public_id": "sample",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1772815145/sample.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1772815145/sample.jpg",
+          "alt": "sample",
+          "width": 864,
+          "height": 576,
+          "created_at": "2026-03-06T16:39:05Z"
+        }
+      ],
+      "updated_at": "2026-03-28T15:28:54Z"
+    }
+  ]
+}

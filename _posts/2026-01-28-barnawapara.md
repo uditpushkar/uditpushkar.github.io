@@ -1,7 +1,7 @@
 ---
 title: "Barnawapara - Potential for National Park "
 excerpt_separator: <!--more--> 
-image: /assets/images/barnawa_cover.jpg
+image: https://res.cloudinary.com/dgp64eocv/image/upload/v1773131536/barnawa_cover_ianvto.jpg
 categories:
   - Travel
 tags:
@@ -41,4 +41,6 @@ The forest is dry decisous type domimated by **Sal Trees**, which sheds thier le
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/barnawa_forest.jpg){: .align-center}
 
+The highlight was spotting Black Bucks in the chilly winter morning. They have been reintroduced in the santuary as told by the guides. Black buck is an antelope interestingly. Antelopes are differnt from deers as they dont have branched horns unlike which have branched horns and also sheds them annually. 
 
+The santuary is considered prime territory for Leopards. But we could'nt spot any. Leopards are very difficult to spot as they like to live in solitude. There used to be Tigers here as well but hunting and poaching have made them extinct here. The guide told us that one Tiger has been spotted in the area, perhaps must have eneterd from the Orissa side. 
