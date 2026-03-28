@@ -42,6 +42,11 @@
             </ul>
           {% endif %}
         </div>
+        {% unless forloop.last %}
+          <hr class="cv-divider">
+        {% endunless %}
+        <br>
+        <br>
       {% endfor %}
     </div>
   </div>
