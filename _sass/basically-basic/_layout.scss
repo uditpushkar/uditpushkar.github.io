@@ -69,6 +69,25 @@ main {
   .entry-content {
     @include breakpoint($large) {
       width: span(14 of 16);
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.layout--posts {
+  .posts-shell {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 1rem 3rem;
+
+    @include breakpoint($medium) {
+      padding: 0 2rem 3rem;
+    }
+
+    @include breakpoint($large) {
+      padding: 0 3rem 4rem;
     }
   }
 }

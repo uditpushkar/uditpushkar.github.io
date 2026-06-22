@@ -1,7 +1,7 @@
 ---
 title: "Barnawapara - Potential for National Park "
 excerpt_separator: <!--more--> 
-image: https://res.cloudinary.com/dgp64eocv/image/upload/v1773131536/barnawa_cover_ianvto.jpg
+image: https://res.cloudinary.com/dgp64eocv/image/upload/v1773131536/albums/wildlife/barnawa_cover_ianvto.jpg
 categories:
   - Travel
 tags:
