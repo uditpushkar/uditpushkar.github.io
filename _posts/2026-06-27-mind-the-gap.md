@@ -1,7 +1,7 @@
 ---
 title: "Mind the Gap"
 excerpt_separator: <!--more-->
-image: /assets/images/mind-the-gap.svg
+image: /assets/images/mind-the-gap-realistic.png
 categories:
   - Opinion
 tags:
