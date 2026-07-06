@@ -13,3 +13,8 @@ example/_site
 Gemfile.lock
 node_modules
 npm-debug.log*
+
+# Local-only photo drop folder and credentials
+.env
+Pictures/blog photos/*
+!Pictures/blog photos/.gitkeep

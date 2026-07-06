@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+if [ "$SKIP_CLOUDINARY_UPLOAD" = "1" ]; then
+  echo "Skipping Cloudinary photo upload because SKIP_CLOUDINARY_UPLOAD=1"
+  exit 0
+fi
+
+echo "Checking local blog photos before push..."
+npm run upload:pictures
+
+if ! git diff --quiet -- _data/cloudinary_gallery.json; then
+  echo ""
+  echo "Cloudinary gallery data changed during upload."
+  echo "Commit _data/cloudinary_gallery.json, then push again."
+  exit 1
+fi

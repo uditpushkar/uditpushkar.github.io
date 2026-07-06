@@ -2,6 +2,7 @@
   "name": "pluto-in-making",
   "private": true,
   "scripts": {
+    "upload:pictures": "node scripts/upload-cloudinary-blog-photos.js",
     "sync:pictures": "node scripts/sync-cloudinary-gallery.js"
   }
 }
