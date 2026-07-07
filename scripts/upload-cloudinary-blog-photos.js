@@ -2,6 +2,7 @@
 
 const crypto = require('crypto');
 const fs = require('fs/promises');
+const os = require('os');
 const path = require('path');
 const { spawnSync } = require('child_process');
 
@@ -9,6 +10,7 @@ const envPath = path.resolve('.env');
 const localFolder = path.resolve(process.env.CLOUDINARY_LOCAL_PHOTOS_DIR || path.join('Pictures', 'blog photos'));
 const uploadFolder = normalizeFolder(process.env.CLOUDINARY_UPLOAD_FOLDER || 'blog-photos');
 const allowedExtensions = new Set(['.jpg', '.jpeg', '.png', '.gif', '.webp', '.avif', '.heic', '.heif']);
+const maxDirectUploadBytes = 10 * 1024 * 1024;
 
 loadDotEnv();
 
@@ -166,10 +168,11 @@ async function uploadPhoto(filePath, publicId) {
     timestamp
   };
   const signature = signParams(params);
-  const bytes = await fs.readFile(filePath);
+  const uploadFilePath = await prepareUploadFile(filePath, publicId);
+  const bytes = await fs.readFile(uploadFilePath);
   const form = new FormData();
 
-  form.set('file', new Blob([bytes]), path.basename(filePath));
+  form.set('file', new Blob([bytes]), path.basename(uploadFilePath));
   form.set('api_key', apiKey);
   form.set('folder', params.folder);
   form.set('overwrite', params.overwrite);
@@ -189,6 +192,59 @@ async function uploadPhoto(filePath, publicId) {
   }
 
   return response.json();
+}
+
+async function prepareUploadFile(filePath, publicId) {
+  const stats = await fs.stat(filePath);
+
+  if (stats.size <= maxDirectUploadBytes) {
+    return filePath;
+  }
+
+  const tempDir = path.join(os.tmpdir(), 'cloudinary-blog-photos');
+  await fs.mkdir(tempDir, { recursive: true });
+
+  const attempts = [
+    { maxDimension: '2400', quality: '85' },
+    { maxDimension: '2200', quality: '75' },
+    { maxDimension: '1800', quality: '70' }
+  ];
+
+  for (const attempt of attempts) {
+    const tempFilePath = path.join(tempDir, `${publicId}-${attempt.maxDimension}-${attempt.quality}.jpg`);
+    const result = spawnSync('sips', [
+      '-s',
+      'format',
+      'jpeg',
+      '-s',
+      'formatOptions',
+      attempt.quality,
+      '-Z',
+      attempt.maxDimension,
+      filePath,
+      '--out',
+      tempFilePath
+    ], {
+      encoding: 'utf8'
+    });
+
+    if (result.status !== 0) {
+      throw new Error(`Could not compress ${path.basename(filePath)} with sips: ${result.stderr || result.stdout}`);
+    }
+
+    const tempStats = await fs.stat(tempFilePath);
+
+    if (tempStats.size <= maxDirectUploadBytes) {
+      console.log(`Compressed ${path.basename(filePath)} from ${formatBytes(stats.size)} to ${formatBytes(tempStats.size)} for upload.`);
+      return tempFilePath;
+    }
+  }
+
+  throw new Error(`Could not compress ${path.basename(filePath)} below ${formatBytes(maxDirectUploadBytes)}.`);
+}
+
+function formatBytes(bytes) {
+  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
 
 function runGallerySync() {

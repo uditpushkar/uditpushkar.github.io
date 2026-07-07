@@ -1,12 +1,21 @@
 {
   "generated_at": "2026-07-07T18:23:32.868Z",
   "source_prefix": null,
-  "total_images": 88,
+  "total_images": 89,
   "albums": [
     {
       "title": "All Photos",
       "slug": "all-photos",
       "images": [
+        {
+          "public_id": "blog-photos/dsc-0309",
+          "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1783450018/blog-photos/dsc-0309.jpg",
+          "full": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_1800,c_limit/v1783450018/blog-photos/dsc-0309.jpg",
+          "alt": "dsc 0309",
+          "width": 2400,
+          "height": 1600,
+          "created_at": "2026-07-07T18:46:58Z"
+        },
         {
           "public_id": "blog-photos/dbac05b9-8795-4397-8bb5-cdcfd150333a-1-105-c",
           "src": "https://res.cloudinary.com/dgp64eocv/image/upload/f_auto,q_auto,w_900,c_limit/v1783449673/blog-photos/dbac05b9-8795-4397-8bb5-cdcfd150333a-1-105-c.jpg",
@@ -800,7 +809,7 @@
           "created_at": "2026-03-06T16:39:05Z"
         }
       ],
-      "updated_at": "2026-07-07T18:41:13Z"
+      "updated_at": "2026-07-07T18:46:58Z"
     }
   ]
 }
