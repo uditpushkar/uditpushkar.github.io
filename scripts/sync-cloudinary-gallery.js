@@ -139,17 +139,44 @@ function buildGallery(resources) {
 async function writeGalleryFile(gallery) {
   const absoluteOutputPath = path.resolve(outputPath);
   await fs.mkdir(path.dirname(absoluteOutputPath), { recursive: true });
+
+  try {
+    const existingGallery = JSON.parse(await fs.readFile(absoluteOutputPath, 'utf8'));
+
+    if (sameGalleryContent(existingGallery, gallery)) {
+      return { absoluteOutputPath, changed: false };
+    }
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      throw error;
+    }
+  }
+
   await fs.writeFile(absoluteOutputPath, `${JSON.stringify(gallery, null, 2)}\n`, 'utf8');
-  return absoluteOutputPath;
+  return { absoluteOutputPath, changed: true };
+}
+
+function sameGalleryContent(left, right) {
+  return JSON.stringify(withoutGeneratedAt(left)) === JSON.stringify(withoutGeneratedAt(right));
+}
+
+function withoutGeneratedAt(gallery) {
+  const clone = { ...gallery };
+  delete clone.generated_at;
+  return clone;
 }
 
 async function main() {
   assertEnv();
   const resources = await fetchResources();
   const gallery = buildGallery(resources);
-  const absoluteOutputPath = await writeGalleryFile(gallery);
+  const { absoluteOutputPath, changed } = await writeGalleryFile(gallery);
 
-  console.log(`Synced ${gallery.total_images} images across ${gallery.albums.length} albums to ${absoluteOutputPath}`);
+  if (changed) {
+    console.log(`Synced ${gallery.total_images} images across ${gallery.albums.length} albums to ${absoluteOutputPath}`);
+  } else {
+    console.log(`Cloudinary gallery already up to date at ${absoluteOutputPath}`);
+  }
 }
 
 main().catch((error) => {
